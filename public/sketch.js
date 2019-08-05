@@ -2,7 +2,7 @@ var socket;
 var PORT = process.env.PORT || 3001;
 
 function setup() {
-  createCanvas(600, 400);
+  createCanvas(1200, 1200);
   background(51);
 
   socket = io.connect(PORT);
